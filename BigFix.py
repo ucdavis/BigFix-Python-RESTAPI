@@ -1,6 +1,6 @@
 import requests
 import requests.packages.urllib3
-from errors import ResponseError
+from BigFix import errors
 
 class BigFix(object):
     '''
